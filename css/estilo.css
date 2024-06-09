@@ -1,0 +1,134 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding-top: 25px;;
+    padding-bottom: 25px;
+    position: relative;
+    overflow: auto; 
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+header h1{
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+    color: white;
+   
+}
+
+.titulo{
+    padding-left: 2em;
+    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    display: inline;
+    margin-right: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    padding-right: 30px;
+    transition: font-size 500ms ease;
+  
+}
+
+ul{
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+
+
+.Opciones{
+    font-size: 20px;
+    margin-left: auto;
+}
+
+li :hover
+{
+    color: rgba(2, 167, 147, 0.932);
+    font-size: 25px;
+    transition: font-size 500ms ease;
+    
+}
+
+
+h1{
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.Contenido{
+    text-align: justify;
+    width: 45em;
+    margin-left: 2em;
+}
+
+h2{
+    font-size: 23px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+footer{
+background-color: rgb(17, 15, 15);
+color: white;
+align-items: center;
+text-align: center;
+padding: 20px;
+
+}
+
+footer p{
+    font-size: 15px;
+}
+
+main{
+    margin-bottom: 5em;
+}
+
+
+/*Tabla*/
+thead{
+    background-color: #1d1c1c;
+    color: white;
+    font-size: 23px;
+
+  }
+  
+  
+  
+  table tbody tr:nth-child(even){ /*even - odd */
+    background-color: #c6c6c6;
+  }
+  
+  td a{
+    color: black;
+  }
+  
+  tr {
+    height: 40px; 
+  }
+
+
+.Tabla{
+   display: flex;
+   justify-content: center;
+   margin-top: 45px;
+   margin-bottom: 10%;
+}
